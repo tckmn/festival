@@ -13,6 +13,7 @@ File organization is as follows:
 
     * `c`: C
     * `rb`: Ruby
+    * `jl`: Julia
 
 Here is a chart of the progress I have made:
 
