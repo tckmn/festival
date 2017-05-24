@@ -1,7 +1,7 @@
 ## FESTIVAL
 
 This is a personal project of **F**inishing **E**asy **S**imple **T**asks
-**I**n **V**arious **L**anguages.
+**I**n **V**arious **A**ssorted **L**anguages.
 
 File organization is as follows:
 
