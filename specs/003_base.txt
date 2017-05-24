@@ -1,0 +1,17 @@
+base
+====
+
+Input: a nonnegative integer and a list of n unique printable ASCII characters
+(excluding space).
+
+Output: the integer converted to base n, using the list of characters as
+digits.
+
+Sample input:
+123
+0123456789abcdef
+
+Sample output:
+7b
+
+Note that the maximum base will be 94.

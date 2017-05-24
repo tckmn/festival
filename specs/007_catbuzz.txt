@@ -1,0 +1,38 @@
+catbuzz
+=======
+
+Input: one or more positive integers, each on their own line.
+
+Output: fizzbuzz run on the integers 1 through the input for each input line.
+
+Sample input:
+4
+1
+15
+
+Sample output:
+1
+2
+Fizz
+4
+1
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+Fizzbuzz
+
+Ideally (if possible in the given language), in the spirit of the cat program,
+the input should be read as a stream and the program should output immediately
+after reading each line rather than printing all output when the program
+terminates.

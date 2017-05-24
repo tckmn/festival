@@ -1,0 +1,28 @@
+pathfind
+========
+
+Input: a rectangular array of digits, represented as one or more lines of the
+same number of digits each, in which a 0 indicates movable space and 1
+indicates a wall.
+
+Output: the length of the unique path from the top left to the bottom right of
+the input.
+
+Sample input:
+000100000000011
+010101110101000
+010100010100110
+010111010010001
+010000011001100
+
+Sample output:
+31
+
+The path is as follows:
+000 0000000
+  0 0     0
+  0 000   00
+  0   0    000
+  00000      00
+
+Note that diagonal movement is illegal.

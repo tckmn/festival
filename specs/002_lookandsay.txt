@@ -1,0 +1,26 @@
+lookandsay
+==========
+
+Input: a positive integer n.
+
+Output: the first n terms of the look-and-say sequence (OEIS A005150), starting
+at 1.
+
+Sample input:
+10
+
+Sample output:
+1
+11
+21
+1211
+111221
+312211
+13112221
+1113213211
+31131211131221
+13211311123113112211
+
+The nth term of the look-and-say sequence is formed by a run-length encoding of
+the (n-1)th term. For example, 111221 consists of 3 1s, 2 2s, then 1 1, so it
+is encoded as 312211.

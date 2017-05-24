@@ -1,0 +1,25 @@
+circle
+======
+
+Input: a nonnegative integer n representing the radius of a circle.
+
+Output: 2n+1 lines of 2n+1 characters each, with characters a distance of n or
+less from the center represented by a different character than those farther
+than n from the center.
+
+Sample input:
+5
+
+Sample output:
+.....#.....
+..#######..
+.#########.
+.#########.
+###########
+.#########.
+.#########.
+..#######..
+.....#.....
+
+The two characters may be any printable ASCII characters, as long as they are
+unique.

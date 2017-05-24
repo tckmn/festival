@@ -1,0 +1,23 @@
+textrot
+=======
+
+Input: a single line of text, consisting of only lowercase and uppercase
+ASCII letters (a-zA-Z).
+
+Output: the same line, followed by the line rotated left once, followed by the
+line rotated twice, and so on, stopping immediately before the original line is
+reached.
+
+Sample input:
+foobarbaz
+
+Sample output:
+foobarbaz
+oobarbazf
+obarbazfo
+barbazfoo
+arbazfoob
+rbazfooba
+bazfoobar
+azfoobarb
+zfoobarba
