@@ -1,0 +1,23 @@
+wordcount
+=========
+
+Input: a series of one or more lines consisting of only the ASCII characters
+a-z, all at least one character long.
+
+Output: on separate lines, each unique word exactly once followed by a space
+and the number of times the word occurred in the input.
+
+Sample input:
+foo
+bar
+bar
+foo
+foo
+baz
+
+Sample output:
+foo 3
+bar 2
+baz 1
+
+The output does not have to be in any particular order.
