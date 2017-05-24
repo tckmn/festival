@@ -1,0 +1,21 @@
+wavg
+====
+
+Input: one or more lines consisting of two space-separated positive integers
+each.
+
+Output: a weighted average of the integers, taking the first integer of each
+line as the value and the second integer as the weight.
+
+Sample input:
+12 7
+34 5
+56 5
+78 2
+90 1
+
+Sample output:
+39
+
+Note that the output may not always be an integer. Rounding down (truncation)
+is acceptable, as is outputting a floating point value (which is ideal).

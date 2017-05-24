@@ -17,10 +17,10 @@ File organization is as follows:
 Here is a chart of the progress I have made:
 
     # implemented     * in-progress     . unimplemented   @ impossible
-       0
-       0123456789
-    c  #.......
-    rb #.......
+       0         1
+       01234567890123456789
+    c  #..................
+    rb #..................
 
 Here is a list of the tasks with brief summaries of each:
 
@@ -46,3 +46,28 @@ Here is a list of the tasks with brief summaries of each:
 
 7. `catbuzz`: given a stream of integers, run fizzbuzz on each of them and
    output in parallel.
+
+8. `bsdsum`: given a byte stream, output its BSD checksum.
+
+9. `euclid`: given two integers, output each step of Euclid's algorithm to find
+   their GCD.
+
+10. `quicksort`: given a list of integers, sort them with quicksort.
+
+11. `abbrev`: given a series of words, output all uniquely identifying
+    prefixes.
+
+12. `rpncalc`: given an RPN expression, output its value.
+
+13. `loopdetect`: given a directed graph, output whether it contains a loop.
+
+14. `wavg`: given a set of data and weights, compute the weighted average.
+
+15. `toposort`: given a DAG, output a topological sorting.
+
+16. `justify`: given a line of text, justify it to a width of 80 characters.
+
+17. `isbalanced`: given a string of various brackets, output whether it is
+    balanced.
+
+18. `uuid`: given no input, generate a version 4, variant 1 UUID.

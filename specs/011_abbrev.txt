@@ -1,0 +1,28 @@
+abbrev
+======
+
+Input: one or more unique lines consisting of only characters a-z, representing
+words.
+
+Output: a list of all prefixes that uniquely identify an input word, followed
+by a space and the word to which they correspond.
+
+Sample input:
+abc
+bcd
+bde
+cde
+cdf
+
+Sample output:
+a abc
+ab abc
+abc abc
+bc bcd
+bcd bcd
+bd bde
+bde bde
+cde cde
+cdf cdf
+
+The output does not have to be in a particular order.

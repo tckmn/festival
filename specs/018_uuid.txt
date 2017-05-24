@@ -1,0 +1,16 @@
+uuid
+====
+
+Input: none.
+
+Output: a version 4, variant 1 UUID.
+
+Sample input:
+
+Sample output:
+e707fe56-1aee-4dac-9e81-2f0e25f263c4
+
+The UUID should be in the format
+  xxxxxxxx-xxxx-Mxxx-Nxxx-xxxxxxxxxxxx
+where <x> is a random hex digit, <M> is always 4 (the version number), and <N>
+consists of the bits 10 (variant 1) followed by two random bits.

@@ -1,0 +1,19 @@
+euclid
+======
+
+Input: two positive integers, the first strictly greater than the second.
+
+Output: each step of the Euclidean algorithm to find the numbers' greatest
+common divisor.
+
+Sample input:
+462 180
+
+Sample output:
+462 = 180*2 + 102
+180 = 102*1 + 78
+102 = 78*1 + 24
+78 = 24*3 + 6
+24 = 6*4 + 0
+
+The output must be given in exactly the sample format.

@@ -1,0 +1,29 @@
+justify
+=======
+
+Input: a single line containing a series of space-separated words, which
+consist of one or more printable ASCII characters except space.
+
+Output: the text justified to a width of 80 characters through the following
+process:
+
+ 1. While the last line is 81 characters or longer, replace the last space
+    found in the first 81 characters with a newline.
+
+ 2. For each wrapped line except the last, while it is less than 80 characters
+    long, replace spaces with two spaces starting from the first space until
+    the line reaches 80 characters in length. If it still hasn't reached 80
+    characters, repeat, replacing two spaces with three spaces and so on.
+
+Sample input:
+colloquium erased suppressor sacramental chorally Grenoble delivers Presbyterians metering absentmindedly metamorphic execute gook monitor windjammers toppled childishness sweetbreads prolapses ovulation noway heavens bivalves cessations Odell codfishes viscountcy authenticating Mayfair selective geometries firepower whims carrots Merino Rowling tapestries spymasters lambaste smearier nameplate steelworkers vapidity looted upbringing reinoculated room trowed millings Portsmouth prominence Hillel dosing Nelsen condensates pragmatics reunified pillaging peregrination
+
+Sample output:
+colloquium    erased   suppressor   sacramental   chorally   Grenoble   delivers
+Presbyterians   metering   absentmindedly   metamorphic   execute  gook  monitor
+windjammers  toppled  childishness sweetbreads prolapses ovulation noway heavens
+bivalves  cessations Odell codfishes viscountcy authenticating Mayfair selective
+geometries firepower whims carrots Merino Rowling tapestries spymasters lambaste
+smearier  nameplate  steelworkers  vapidity  looted upbringing reinoculated room
+trowed   millings   Portsmouth   prominence  Hillel  dosing  Nelsen  condensates
+pragmatics reunified pillaging peregrination

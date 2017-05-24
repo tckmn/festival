@@ -1,0 +1,18 @@
+rpncalc
+=======
+
+Input: a series of characters from the set of characters 0-9, +, -, *, /.
+
+Output: The result of evaluating the input as an expression in reverse Polish
+notation.
+
+Sample input:
+12+3*
+
+Sample output:
+9
+
+Note that digits should be interpreted separately (12+ adds 1 and 2), not as
+forming a larger number. / is integer division, truncating the result (52/
+should result in 2). The input will always form a valid RPN expression and will
+never involve a division by 0.

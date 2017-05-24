@@ -1,0 +1,17 @@
+isbalanced
+==========
+
+Input: a string consisting of only the characters ([{<>}]).
+
+Output: a truthy or falsy value indicating whether the brackets in the string
+are balanced.
+
+Sample input:
+[(])
+
+Sample output:
+false
+
+To be balanced, the string must contain the same number of closing brackets as
+there are opening brackets, and brackets must be closed in the order they were
+opened.

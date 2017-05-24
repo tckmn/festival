@@ -1,0 +1,14 @@
+bsdsum
+======
+
+Input: an arbitrary stream of bytes.
+
+Output: the BSD checksum of the given byte stream, in 4 hexadecimal digits.
+
+Sample input:
+foobarbaz
+
+Sample output:
+60dd
+
+See also https://en.wikipedia.org/wiki/BSD_checksum.
