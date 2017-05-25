@@ -11,4 +11,6 @@ foobarbaz
 Sample output:
 60dd
 
+(The output if the input is given with a trailing newline is b078.)
+
 See also https://en.wikipedia.org/wiki/BSD_checksum.
