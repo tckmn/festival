@@ -2,6 +2,10 @@ c/*/*
 !c/*/*.c
 !c/*/Makefile
 
+cpp/*/*
+!cpp/*/*.cpp
+!cpp/*/Makefile
+
 hs/*/*
 !hs/*/*.hs
 
