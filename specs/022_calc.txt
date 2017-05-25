@@ -1,0 +1,17 @@
+calc
+====
+
+Input: a mathematical expression consisting of numbers (with digits 0-9), the
+operators +-*/, or parentheses.
+
+Output: the result of evaluating the input.
+
+Sample input:
+12+3*4*(5-6)
+
+Sample output:
+0
+
+/ is integer division, truncating the result (5/2 should result in 2). The
+input will always form a valid expression and will never involve a division by
+0.

@@ -1,0 +1,19 @@
+transpose
+=========
+
+Input: one or more lines of the same number of printable ASCII characters each.
+
+Output: the transposition of the input.
+
+Sample input:
+abcde
+fghij
+klmno
+
+Sample output:
+
+afk
+bgl
+chm
+din
+ejo

@@ -1,0 +1,19 @@
+hamming
+=======
+
+Input: a stream of bits (0 or 1).
+
+Output: the shortest possible Hamming code encoding the bits, padded with 0s at
+the end.
+
+Sample input:
+110100101
+
+Sample output:
+111110100010100
+
+The steps in obtaining the output were
+  input        110100101
+  pad          11010010100
+  parity bits  ##1#101#0010100
+  calculate    111110100010100

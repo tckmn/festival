@@ -1,0 +1,23 @@
+linreg
+======
+
+Input: one or more lines with two space-separated floating point numbers on
+each line, representing an x and a y value.
+
+Output: the y-intercept and slope of the corresponding OLS (ordinary least
+squares) regression line.
+
+Sample input:
+2.34 -1.5
+1.337 -3
+5 2
+0.123 -4.242
+4.444 1.5
+
+Sample output:
+-4.566474
+1.328176
+
+This corresponds to a regression line of ŷ = -4.566474 + 1.328176x.
+
+Precision does not necessarily have to be accurate to this degree.

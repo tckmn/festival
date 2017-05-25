@@ -3,7 +3,7 @@ rpncalc
 
 Input: a series of characters from the set of characters 0-9, +, -, *, /.
 
-Output: The result of evaluating the input as an expression in reverse Polish
+Output: the result of evaluating the input as an expression in reverse Polish
 notation.
 
 Sample input:
