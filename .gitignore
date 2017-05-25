@@ -1,2 +1,6 @@
 # binaries
+
 c/000_wordcount/wordcount
+
+rs/*/Cargo.lock
+rs/*/target

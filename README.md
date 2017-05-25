@@ -13,14 +13,16 @@ File organization is as follows:
 
     * `c`: C
     * `rb`: Ruby
+    * `rs`: Rust
 
 Here is a chart of the progress I have made:
 
     # implemented     * in-progress     . unimplemented   @ impossible
        0         1
-       01234567890123456789
+       0123456789012345678
     c  #..................
     rb #..................
+    rs ............#......
 
 Here is a list of the tasks with brief summaries of each:
 
