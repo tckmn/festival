@@ -1,6 +1,9 @@
-# binaries
+c/*/*
+!c/*/*.c
+!c/*/Makefile
 
-c/000_wordcount/wordcount
+hs/*/*
+!hs/*/*.hs
 
 rs/*/Cargo.lock
 rs/*/target

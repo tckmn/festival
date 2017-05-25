@@ -12,6 +12,7 @@ File organization is as follows:
   solutions to the tasks for that language
 
     * `c`: C
+    * `hs`: Haskell
     * `rb`: Ruby
     * `rs`: Rust
 
@@ -21,6 +22,7 @@ Here is a chart of the progress I have made:
        0         1
        0123456789012345678
     c  #..................
+    hs .#.................
     rb #..................
     rs ............#......
 
