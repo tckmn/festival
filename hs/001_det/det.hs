@@ -7,5 +7,5 @@ det (top:lst) =
 
 main = do
     contents <- getContents
-    putStrLn . show . det .
-        map (map read . words :: String -> [Int]) $ lines contents
+    putStrLn . show . (det :: [[Int]] -> Int) .
+        map (map read . words) $ lines contents
