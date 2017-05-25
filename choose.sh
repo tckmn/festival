@@ -2,7 +2,8 @@
 
 pstart=PROGRESS_START; pend=PROGRESS_END
 progress="$(sed -n "/$pstart/,/$pend/{/^$\|\.$/s/^[ a-z]*//gp}" README.md)"
-width=$(($(grep -vc . <<<"$progress")*56))
+groups=$(grep -vc . <<<"$progress")
+width=$((groups > 1 ? groups*56 : 1))
 table="$(column -c$width <<<"$progress" | tr -d $'\t')"
 idx=$(grep -ob \\. <(tr -d $'\n' <<<"$table") | shuf -n1 | cut -d: -f1)
 len=$(($(head -1 <<<"$table" | wc -c) - 1))
