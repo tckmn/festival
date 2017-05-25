@@ -9,5 +9,7 @@ cpp/*/*
 hs/*/*
 !hs/*/*.hs
 
+java/*/*.class
+
 rs/*/Cargo.lock
 rs/*/target
