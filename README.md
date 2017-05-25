@@ -18,6 +18,7 @@ File organization is as follows:
     * `py`: Python
     * `rb`: Ruby
     * `rs`: Rust
+    * `sh`: Bash
 
 Here is a chart of the progress I have made:
 
@@ -31,6 +32,7 @@ Here is a chart of the progress I have made:
     py ....#..............
     rb #..................
     rs ............#......
+    sh .......#...........
 
 Here is a list of the tasks with brief summaries of each:
 
