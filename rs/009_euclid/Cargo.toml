@@ -1,0 +1,6 @@
+[package]
+name = "euclid"
+version = "0.1.0"
+authors = ["KeyboardFire <andy@keyboardfire.com>"]
+
+[dependencies]
