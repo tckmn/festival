@@ -1,0 +1,19 @@
+boxes
+=====
+
+Input: a list of positive integers, one per line.
+
+Output: squares of the given width and height consisting of any ASCII character
+except space, concatenated horizontally.
+
+Sample input:
+3 5 2 4 1 3
+
+Sample output:
+##################
+############## ###
+########  #### ###
+   #####  ####
+   #####
+
+Trailing spaces are acceptable.

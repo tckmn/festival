@@ -1,0 +1,19 @@
+binom
+=====
+
+Input: on three separate lines, two integer coefficients n and m and a positive
+integer exponent e, representing the expression (na + mb)^e.
+
+Output: the expanded form of the expression.
+
+Sample input:
+2
+-3
+5
+
+Sample output:
+32a^5 - 240a^4b + 720a^3b^2 - 1080a^2b^3 + 810ab^4 - 243b^5
+
+Note that if the coefficient of any expanded term in the output is negative,
+the preceding + symbol must become - (i.e. the output "32a^5 + -240a^4b + ..."
+is not allowed).

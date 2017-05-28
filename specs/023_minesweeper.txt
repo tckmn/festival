@@ -1,0 +1,32 @@
+minesweeper
+===========
+
+Input: n lines of n characters each, which will be either a dot (.) to
+represent an empty space or an asterisk (*) to represent a mine.
+
+Output: the same grid, but with dots replaced with a single digit that counts
+the number of mines surrounding them.
+
+Sample input:
+...***.*.
+.....*...
+**..****.
+....**.*.
+.*****...
+....***..
+**..*..**
+*...*.*.*
+***.....*
+
+Sample output:
+001***3*1
+22236*632
+**12****2
+3445**6*2
+1*****521
+3445***32
+**13*64**
+*633*3*5*
+***21213*
+
+Note that "surrounding" include diagonal adjacency.

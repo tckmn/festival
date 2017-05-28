@@ -1,0 +1,25 @@
+markdown
+========
+
+Input: a string formatted with a highly simplified version of Markdown.
+
+Output: the string converted to HTML, or no output if the input was invalid
+Markdown.
+
+Sample input:
+*this _is_* `a test`
+
+Sample output:
+<strong>this <em>is</em></strong> <code>a test</code>
+
+The variant of Markdown used is:
+
+ - *...*: <strong>...</strong>
+ - _..._: <em>...</em>
+ - `...`: <code>...</code>
+
+The input is considered invalid if:
+
+ - there is an odd number of either *, _, or `
+ - there is an odd number of any delimiter between pairs of a different
+   delimieter: e.g. *foo _bar* baz_

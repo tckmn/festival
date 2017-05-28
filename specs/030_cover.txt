@@ -1,0 +1,19 @@
+cover
+=====
+
+Input: one or more lines consisting of two positive space-separated integers
+representing x and y coordinates.
+
+Output: the area of the smallest rectangle necessary to contain all of the
+given points.
+
+Sample input:
+2 7
+3 6
+8 1
+5 4
+4 3
+7 9
+
+Sample output:
+48

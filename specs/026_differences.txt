@@ -1,0 +1,26 @@
+differences
+===========
+
+Input: a list of integers, one per line.
+
+Output: the integers separated by spaces, followed by the difference of each
+two consecutive integers separated by spaces, followed by their second
+differences, and so on until only one integer remains.
+
+Sample input:
+1
+-4
+3
+-2
+3
+7
+0
+
+Sample output:
+1 -4 3 -2 3 7 0
+5 -7 5 -5 -4 7
+12 -12 10 -1 -11
+24 -22 11 10
+46 -33 1
+79 -34
+113

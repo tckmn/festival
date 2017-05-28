@@ -1,0 +1,16 @@
+sentence
+========
+
+Input: a single line with one or more space-separated words, defined as one or
+more of any character in a-z or A-Z, followed optionally by a period.
+
+Output: the sentence with the first letter and letters directly after a period
+capitalized and all other letters lowercase.
+
+Sample input:
+this is a sentence. HERE IS ANOTHER ONE. aNd AnOtHeR.
+
+Sample output:
+This is a sentence. Here is another one. And another.
+
+The last word will always be followed by a period.

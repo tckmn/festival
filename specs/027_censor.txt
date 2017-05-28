@@ -1,0 +1,16 @@
+censor
+======
+
+Input: a string on its own line followed by a list of words on one or more
+additional lines.
+
+Output: the string, with each of the words found in the list replaced with as
+many asterisks as it is long.
+
+Sample input:
+see, when you type hunter2, it doesn't show up as hunter2
+you
+hunter2
+
+Sample output:
+see, when *** type *******, it doesn't show up as *******

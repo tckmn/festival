@@ -1,0 +1,30 @@
+chrtrans
+========
+
+Input: two lines, the first with an integer and the second with a single note.
+
+Output: the note, chromatically transposed by as many half steps as the input
+number.
+
+Sample input:
+-4
+F#
+
+Sample output:
+D
+
+All notes not in the C scale will be given and should be output with sharps,
+not flats. The list of valid notes, in order, is:
+
+ C
+ C#
+ D
+ D#
+ E
+ F
+ F#
+ G
+ G#
+ A
+ A#
+ B
